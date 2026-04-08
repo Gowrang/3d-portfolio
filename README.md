@@ -1,8 +1,20 @@
 # Gowrang Ujjainia - 3D Portfolio
 
-A modern, interactive 3D portfolio website showcasing my work as an AI Engineer and Software Developer. Built with React, TypeScript, Three.js, React Three Fiber, and GSAP, featuring animated sections, an interactive 3D character scene, custom cursor effects, and smooth scroll-driven transitions.
+A modern, interactive 3D portfolio website showcasing my work as an AI Engineer and Developer. Built with React, TypeScript, Three.js, React Three Fiber, and GSAP, featuring animated sections, an interactive 3D character scene, custom cursor effects, and smooth scroll-driven transitions.
 
-![Portfolio Preview](public/images/preview1.png)
+## Preview
+
+### Hero
+![Hero Section](public/images/preview-hero.png)
+
+### Education & Qualifications
+![Education Section](public/images/preview-education.png)
+
+### My Work
+![Work Section](public/images/preview-work.png)
+
+### Contact
+![Contact Section](public/images/preview-contact.png)
 
 ## Table of Contents
 
@@ -25,6 +37,7 @@ I'm an MTech IT student at NSUT Delhi (CGPA: 8.5) specializing in AI/ML and soft
 - **Heart Failure Predictor** - Healthcare AI application
 - **Agentic AI Crew** - Multi-agent AI system
 - **Music Player** - Android application
+- **To-Do List** - Software application
 
 ## Features
 
@@ -109,11 +122,6 @@ I'm an MTech IT student at NSUT Delhi (CGPA: 8.5) specializing in AI/ML and soft
 
 3. Add required assets:
    - Place your resume PDF as `public/Gowrang_ujjainia_resume.pdf`
-   - Add project images to `public/images/`:
-     - `crop-predictor.png`
-     - `heart-predictor.png`
-     - `agent-crew.png`
-     - `music-player.png`
 
 4. Start the development server:
 

@@ -33,11 +33,12 @@ A modern, interactive 3D portfolio website showcasing my work as an AI Engineer 
 
 I'm an MTech IT student at NSUT Delhi (CGPA: 8.5) specializing in AI/ML and software development. This portfolio showcases my projects in machine learning, deep learning, and full-stack development, including:
 
-- **Crop Predictor** - ML-based agricultural solution
+- **User Intent Prediction** - Production NLP multi-label intent classification system
+- **Crop Predictor** - ML-based agricultural solution (99.77% accuracy)
 - **Heart Failure Predictor** - Healthcare AI application
-- **Agentic AI Crew** - Multi-agent AI system
+- **Agentic AI Crew** - Multi-agent AI system with 5 LLM providers
 - **Music Player** - Android application
-- **To-Do List** - Software application
+- **To-Do List** - Android task management application
 
 ## Features
 

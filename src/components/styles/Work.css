@@ -346,3 +346,12 @@
   background-color: #5eead4;
   box-shadow: 0px 4px 15px rgba(94, 234, 212, 0.4);
 }
+
+.carousel-description {
+  font-size: 15px;
+  font-weight: 300;
+  color: #c4c4c4;
+  line-height: 1.65;
+  margin: 10px 0 0 0;
+  max-width: 520px;
+}

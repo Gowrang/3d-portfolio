@@ -4,33 +4,51 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "User Intent Prediction",
+    category: "NLP & Production ML System",
+    tools: "Python, FastAPI, scikit-learn, DistilBERT, Docker, TF-IDF",
+    description:
+      "A production-ready multi-label intent classification system for support ticket routing. Classifies tickets into 10 intent categories (billing, login, refund, etc.) using TF-IDF + Logistic Regression or DistilBERT. Includes a FastAPI REST API with batch prediction, Docker deployment ready for AWS ECS/Fargate, and a synthetic 10K-sample dataset generator.",
+    link: "https://github.com/Gowrang/user_intent_prediction",
+  },
+  {
     title: "Crop Predictor",
     category: "ML-based Agricultural Solution",
-    tools: "Python, Machine Learning, Jupyter Notebook, Scikit-learn",
+    tools: "Python, Scikit-learn, Jupyter Notebook, Random Forest",
+    description:
+      "A high-accuracy crop recommendation system that predicts the best crop to grow based on soil nutrients (N, P, K) and environmental conditions (temperature, humidity, rainfall, pH). Achieves 99.77% accuracy using a Random Forest classifier trained on agricultural datasets.",
     link: "https://github.com/Gowrang/CROP-PREDICTOR",
   },
   {
     title: "Heart Failure Predictor",
     category: "Healthcare AI Application",
     tools: "Python, Deep Learning, Jupyter Notebook, Data Analysis",
+    description:
+      "A data science project to assess the likelihood of a death event caused by heart failure. Uses 12 clinical features (age, ejection fraction, serum creatinine, etc.) to predict patient mortality risk — designed to help hospitals prioritise treatment for cardiovascular disease patients.",
     link: "https://github.com/Gowrang/Heart-Failure-Predictor",
   },
   {
     title: "Agentic AI Crew",
     category: "Multi-Agent AI System",
-    tools: "Python, LangChain, AI Agents, Crew AI",
+    tools: "Python, CrewAI, Supabase, Claude, Gemini, OpenAI, pgvector",
+    description:
+      "An autonomous multi-agent system with 4 specialised agents (Developer, Task Manager, Research Assistant, Manager) and support for 5 LLM providers including Anthropic Claude, Google Gemini, and OpenAI. Features automatic provider fallback, persistent Supabase storage, and smart task routing based on context.",
     link: "https://github.com/Gowrang/agent-crew",
   },
   {
     title: "Music Player",
     category: "Android Application",
     tools: "Java, Android Studio, Mobile Development",
+    description:
+      "A native Android music player application built with Java and Android Studio. Features a clean UI for browsing and playing local audio files, with playback controls, playlist management, and media session integration for background playback support.",
     link: "https://github.com/Gowrang/MusicPlayer",
   },
   {
     title: "To-Do List",
-    category: "Software Application",
-    tools: "Web/Mobile Development",
+    category: "Android Application",
+    tools: "Java, Android Studio, SQLite",
+    description:
+      "A lightweight Android task management application supporting Android 4.4 and below. Users can create tasks with a title and content, mark them done, and edit or delete them. Built with Java using SQLite for persistent local storage and a simple, intuitive dialog-based UX.",
     link: "https://github.com/Gowrang/ToDoList",
   },
 ];
@@ -100,12 +118,15 @@ const Work = () => {
                   <div className="carousel-content">
                     <div className="carousel-info">
                       <div className="carousel-number">
-                        <h3>0{index + 1}</h3>
+                        <h3>{String(index + 1).padStart(2, "0")}</h3>
                       </div>
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
                         <p className="carousel-category">
                           {project.category}
+                        </p>
+                        <p className="carousel-description">
+                          {project.description}
                         </p>
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Features</span>

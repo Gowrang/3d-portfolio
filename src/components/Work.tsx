@@ -4,6 +4,14 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "AI Data Analyst",
+    category: "Intelligent Web Application",
+    tools: "Python, Streamlit, Pandas, Plotly, PyGWalker, DeepSeek API",
+    description:
+      "An intelligent web application that serves as your personal AI Data Analyst. Upload any CSV dataset, ask questions in plain English, and watch as the AI automatically analyzes the data, provides executive summaries, and builds interactive Plotly charts.",
+    link: "https://github.com/Gowrang/ai_data_analyst",
+  },
+  {
     title: "User Intent Prediction",
     category: "NLP & Production ML System",
     tools: "Python, FastAPI, scikit-learn, DistilBERT, Docker, TF-IDF",
